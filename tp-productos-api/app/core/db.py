@@ -15,3 +15,8 @@ productos: list[Producto] = [
     Producto(id=5, nombre="Cuaderno universitario", precio=3500.0, stock=50, categoria_id=3),
     Producto(id=6, nombre="Lapicera Bic x3", precio=1200.0, stock=100, categoria_id=3),
 ]
+_ultimo_id = max((p.id for p in productos), default=0)
+def bump_producto_id() -> int:
+    global _ultimo_id
+    _ultimo_id += 1
+    return _ultimo_id
