@@ -10,9 +10,9 @@ materia sin tener que reescribir la lógica de negocio.
 | Nombre | Usuario de GitHub | Parte del proyecto |
 |---|---|---|
 | Eileen | eileencross | Estructura de carpetas y modelos (`models/`) |
-| Abigail | _completar_ | Base de datos en memoria (`core/db.py`) |
-| Fernando | _completar_ | Schemas de validación (`schemas.py`) |
-| Florencia | _completar_ | Repository, router y arranque de la app |
+| Abigail | Abigail-Aramayo | Base de datos en memoria (`core/db.py`) |
+| Fernando | Fer-123778 | Schemas de validación (`schemas.py`) |
+| Florencia | eugevs | Repository, router y arranque de la app |
 
 ## Estructura de carpetas
 
