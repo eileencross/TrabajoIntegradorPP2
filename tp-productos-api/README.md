@@ -9,10 +9,10 @@ materia sin tener que reescribir la lógica de negocio.
 
 | Nombre | Usuario de GitHub | Parte del proyecto |
 |---|---|---|
-| Eileen | eileencross | Estructura de carpetas y modelos (`models/`) |
-| Abigail | Abigail-Aramayo | Base de datos en memoria (`core/db.py`) |
-| Fernando | Fer-123778 | Schemas de validación (`schemas.py`) |
-| Florencia | eugevs | Repository, router y arranque de la app |
+| Eileen Cruz | eileencross | Estructura de carpetas y modelos (`models/`) |
+| Abigail Aramayo | Abigail-Aramayo | Base de datos en memoria (`core/db.py`) |
+| Fernando Aramayo | Fer-123778 | Schemas de validación (`schemas.py`) |
+| Florencia Vivas | eugevs | Repository, router y arranque de la app |
 
 ## Estructura de carpetas
 
@@ -47,7 +47,7 @@ tp-productos-api/
 ```bash
 cd tp-productos-api
 python -m venv venv
-venv\Scripts\activate        # en Linux/Mac: source venv/bin/activate
+venv\Scripts\activate      
 pip install -r requirements.txt
 fastapi dev app/main.py
 ```
@@ -103,7 +103,3 @@ La API queda disponible en `http://127.0.0.1:8000`, y la documentación interact
 ![Contributors 1](screenshots/8a_contributors.png)
 ![Contributors 2](screenshots/8b_contributors.png)
 
-## Próximos pasos
-
-- Migrar `core/db.py` a una base de datos PostgreSQL real con SQLAlchemy + Alembic.
-- Agregar tests automatizados.
