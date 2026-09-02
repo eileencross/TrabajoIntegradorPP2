@@ -92,6 +92,17 @@ La API queda disponible en `http://127.0.0.1:8000`, y la documentación interact
 ![Delete 204](screenshots/6a_delete_204.png)
 ![Delete repetido 404](screenshots/6b_delete_404.png)
 
+## Trabajo colaborativo en Git
+
+**Colaboradores del repositorio**
+
+![Collaborators](screenshots/7_collaborators.png)
+
+**Historial de commits por integrante**
+
+![Contributors 1](screenshots/8a_contributors.png)
+![Contributors 2](screenshots/8b_contributors.png)
+
 ## Próximos pasos
 
 - Migrar `core/db.py` a una base de datos PostgreSQL real con SQLAlchemy + Alembic.
